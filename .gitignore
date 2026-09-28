@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Cowrie honeypot project exclusions
+var/
+downloads/
+tty/
+*.pid
+*.log
+cowrie.json
+*.pcap
+*.pcapng
+.env
+*.key
+*.pem
+cowrie.cfg
+secrets/
+credentials/
